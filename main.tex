@@ -14,7 +14,7 @@
 \newcommand{\lb}{\left}
 \newcommand{\rb}{\right}
 
-\title[Riprogettazione della dashboard\\``Covid-19 Situazione Italia'']{Riprogettazione della dashboard\\``Covid-19 Situazione Italia'' del Dipartimento della Protezione Civile}
+\title[Riprogettazione della dashboard\\``COVID-19 Situazione Italia'']{Riprogettazione della dashboard\\``COVID-19 Situazione Italia'' del Dipartimento della Protezione Civile}
 \author{X-Spark}
 \institute[UniBo]{LM Informatica\\
 Università di Bologna - Alma Mater Studiorum}
@@ -26,7 +26,7 @@ Università di Bologna - Alma Mater Studiorum}
 	  \titlepage
 	\end{frame}
 	\begin{frame}
-  		\frametitle{Outline}
+  		\frametitle{Indice}
 		\tableofcontents
 	\end{frame}
 	
@@ -41,12 +41,12 @@ Università di Bologna - Alma Mater Studiorum}
 		\begin{frame}
 			\frametitle{Giornalismo}
 			\`E diventato il giornalista la persona che si occupa di comunicare alla popolazione come la pandemia sta evolvendo giorno dopo giorno.\newline \newline
-			\`E quindi questa figura professionale  a dover districarsi tra i moltissimi strumenti per l'analisi dei dati:
+			\`E quindi questa figura professionale a doversi districare tra i moltissimi strumenti per l'analisi dei dati:
 			\begin{itemize}[<+->]
-				\item Bollettini giornalieri\\
-				\item Dashboard\\
-				\item Fogli Excel\\
-				\item Lanci di agenzia\\
+				\item bollettini giornalieri\\
+				\item dashboard\\
+				\item fogli Excel\\
+				\item lanci di agenzia\\
 			\end{itemize}
 		\end{frame}
 
@@ -65,7 +65,7 @@ Università di Bologna - Alma Mater Studiorum}
 
 		\begin{frame}
 			\frametitle{Gli strumenti e il modus operandi}
-			Abbiamo intervistato diversi giornalisti, sia telefonicamente che tramite un Google Form, per conoscere i loro metodi di lavoro e le loro esigenze.
+			Abbiamo intervistato diversi giornalisti, sia telefonicamente che tramite un questionario su Google Forms, per conoscere i loro metodi di lavoro e le loro esigenze.
 		\end{frame}
 
 		\begin{frame}
@@ -102,11 +102,12 @@ Università di Bologna - Alma Mater Studiorum}
 		
 			\begin{frame}
 				\frametitle{Valutazione delle risorse esistenti}
-				Abbiamo analizzato l'interfaccia di una delle dashboard maggiormente utilizzate dai giornalisti, ossia la Dashboard "Situazione Italia'' curata dal Dipartimento della Protezione Civile (DPC). \newline \newline
+				Abbiamo analizzato l'interfaccia di una delle dashboard maggiormente utilizzate dai giornalisti, ossia la Dashboard "COVID-19 Situazione Italia'' curata dal Dipartimento della Protezione Civile (DPC). \newline \newline
 				Abbiamo individuato la violazione di ben 23 linee guida sulle 42 valutate e svariate altre criticità. 
 			\end{frame}
 
 			\begin{frame}
+				\frametitle{Valutazione delle risorse esistenti}
 				\begin{figure}
 					\includegraphics[width=10cm]{img/guidelines_violations_8}
 					\caption{Scarsa usabilità del widget per selezionare la data}
@@ -114,6 +115,7 @@ Università di Bologna - Alma Mater Studiorum}
 			\end{frame}
 
 			\begin{frame}
+				\frametitle{Valutazione delle risorse esistenti}
 				\begin{figure}
 					\includegraphics[width=10cm]{img/guidelines_violations_10}
 					\caption{I dati delle regioni sono difficili da leggere e comprendere}
@@ -148,9 +150,9 @@ Università di Bologna - Alma Mater Studiorum}
 					\item \textbf{3}: Impossibile trovare il dato relativo alle disponibilità nelle strutture ospedaliere\\
 					\item \textbf{6}: Presenza di etichette poco chiare\\
 					\item \textbf{5}: Non tutti i dati sono disponibili nella dashboard
-					\item \textbf{4}: \`E lasciato all'utente il compito di computare il tasso di letalità\\
-					\item \textbf{7}: \`E lasciato all'utente il compito di computare gli incrementi in un periodo di tempo\\
-					\item \textbf{2}: Alcuni dati sono presenti nel PDF raggiungibile ``Schede riepilogo PDF''\\
+					\item \textbf{4}: \`E lasciato all'utente il compito di calcolare il tasso di letalità\\
+					\item \textbf{7}: \`E lasciato all'utente il compito di calcolare gli incrementi in un periodo di tempo\\
+					\item \textbf{2}: Alcuni dati sono presenti nel PDF raggiungibile tramite il link ``Schede riepilogo PDF''\\
 				\end{itemize}
 			\end{frame}
 
@@ -167,9 +169,9 @@ Università di Bologna - Alma Mater Studiorum}
 			\end{itemize}
 		\end{frame}
 
-		\subsection{Personas}
+		\subsection{Persona}
 		\begin{frame}
-			\frametitle{Personas}
+			\frametitle{Persona}
 			Abbiamo individuato un totale di \textbf{6} persona ognuna rappresentante un profilo interessante e peculiare. Trattasi di:
 			\begin{itemize}[<+->]
 				\item Giornalista di una testata nazionale\\
@@ -340,10 +342,12 @@ Università di Bologna - Alma Mater Studiorum}
 		\end{frame}
 
 		\begin{frame}
+			\frametitle{Blueprint}
 			\includegraphics[width=9cm]{img/blueprint-prog-1}
 		\end{frame}
 
 		\begin{frame}
+			\frametitle{Blueprint}
 			\begin{columns}[t]
 					\begin{column}[T]{5cm}
 						\includegraphics[width=5cm]{img/blueprint-prog-2}
@@ -355,6 +359,7 @@ Università di Bologna - Alma Mater Studiorum}
 		\end{frame}
 
 		\begin{frame}
+			\frametitle{Blueprint}
 			\begin{columns}[t]
 					\begin{column}[T]{5cm}
 						\includegraphics[width=5cm]{img/blueprint-prog-4}
@@ -373,19 +378,23 @@ Università di Bologna - Alma Mater Studiorum}
 		\end{frame}
 
 		\begin{frame}
+			\frametitle{Wireframe}
 			\includegraphics[width=10cm]{img/panoramica}
 		\end{frame}
 
 		\begin{frame}
+			\frametitle{Wireframe}
 			\includegraphics[width=10cm]{img/confronto-regioni}
 		\end{frame}
 
 		\begin{frame}
+			\frametitle{Wireframe}
 			\includegraphics[width=10cm]{img/new-analisi-periodi}
 		\end{frame}
 
 
 		\begin{frame}
+			\frametitle{Wireframe}
 			\includegraphics[width=10cm]{img/distribuzione-dati-anagrafici}
 		\end{frame}
 
@@ -394,11 +403,11 @@ Università di Bologna - Alma Mater Studiorum}
 		\subsection{Ispezione}
 		\begin{frame}
 			\frametitle{Cognitive walkthrough}
-			Abbiamo svolto i task con la tecnica del cognitive walkthrough individuando alcune problematiche presenti nei wireframe che abbiamo corretto in iterazioni successive:
+			Abbiamo svolto i task con la tecnica del Cognitive Walkthrough individuando alcune problematiche presenti nei wireframe che abbiamo corretto in iterazioni successive:
 			\begin{itemize}[<+->]
-				\item Diminuito il carico cognitivo aggiungendo etichette o semplifico la comprensibilità di quanto scritto\\
-				\item Aggiunti dati necessari al completamento di alcuni task\\
-				\item Modificato funzionamento relativo alla personalizzazione e alla condivisione dell'interfaccia\\
+				\item diminuito il carico cognitivo aggiungendo etichette o semplifico la comprensibilità di quanto scritto\\
+				\item aggiunti dati necessari al completamento di alcuni task\\
+				\item modificato funzionamento relativo alla personalizzazione e alla condivisione dell'interfaccia\\
 			\end{itemize}
 		\end{frame}
 
