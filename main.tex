@@ -62,13 +62,6 @@
 			\end{columns}
 		\end{frame}
 
-
-
-
-
-
-
-		
 		\begin{frame}
 			\frametitle{Gli strumenti e il modus operandi}
 			\framesubtitle{L'importanza e la richiesta di avere ottimi strumenti e il modo di lavorare}
@@ -81,7 +74,7 @@
 				\item Comprendere l'andamento della curva epidemiologica\\
 				\item Monitorare l'occupazione delle strutture sanitarie\\
 				\item Monitorare l'andamento del tasso di letalità\\
-				\item Monitorare come i numeri della pandemia si distribuiscono sulla popolazione\\
+				\item Analizzare la distribuzione delle metriche epidemiologiche sulla popolazione\\
 				\item Confrontare l'andamento della pandemia tra diverse regioni\\
 				\item Confrontare l'andamento della pandemia tra diversi periodi temporali\\
 			\end{itemize}
@@ -109,8 +102,8 @@
 		
 			\begin{frame}
 				\frametitle{Valutazione delle risorse esistenti}
-				Abbiamo analizzato la dashboard corrente individuandone pregi e difetti. \newline \newline
-				Abbiamo individuato \textbf{23/42} linee guida non rispettate e molti altri problemi esaminando le varie componenti della dashboard attuale. 
+				Abbiamo analizzato l'interfaccia di una delle dashboard maggiormente utilizzate dai giornalisti, ossia la Dashboard "Situazione Italia'' curata dal Dipartimento della Protezione Civile (DPC). \newline \newline
+				Abbiamo individuato la violazione di ben 23 linee guida sulle 42 valutate e svariate altre criticità. 
 			\end{frame}
 
 			\begin{frame}
@@ -126,15 +119,15 @@
 
 			\begin{frame}
 				\frametitle{Testing con gli utenti}
-				Abbiamo chiesto ad alcuni possibili utenti della dashboard di svolgere i task sulla dashboard attuale per capire quali migliorie apportare. \newline \newline
-				Abbiamo adottato l'approccio Guerrilla Usability Testing per registrare gli errori compiuti dai tester così da poter definire una curva delle urgenze.
+				Abbiamo chiesto ad alcuni giornalisti di svolgere i task sulla dashboard attuale al fine di raccogliere evidenze circa le criticità da risolvere e gli aspetti da migliorare. \newline \newline
+				Abbiamo adottato l'approccio \textit{Guerrilla Usability Testing} per registrare gli errori compiuti dai tester e, quindi, definire una \textbf{curva delle urgenze}.
 			\end{frame}
 
 			\begin{frame}
 				\frametitle{Curva delle urgenze}
 				\begin{columns}[t]
 					\begin{column}[T]{5cm}
-						Abbiamo valutato i dati raccolti calcolando la frequenza degli errori riuscendo a tracciare una curva di urgenza in termini di frequenza e impatto dei problemi emersi.
+						Abbiamo valutato i dati raccolti calcolando la frequenza degli errori e assegnando loro una misura dell'impatto sul completamento dei task, per poi riportali su un piano cartesiano e quindi tracciare la curva di urgenza.
 					\end{column}
 					\begin{column}[T]{5cm}
 						\includegraphics[height=5cm]{img/urgency_curve}
@@ -171,14 +164,14 @@
 		\subsection{Personas}
 		\begin{frame}
 			\frametitle{Personas}
-			Abbiamo individuato un totale di \textbf{6} persona ognuna affigurante un profilo interessante e peculiare. Trattasi di:
+			Abbiamo individuato un totale di \textbf{6} persona ognuna rappresentante un profilo interessante e peculiare. Trattasi di:
 			\begin{itemize}[<+->]
-				\item Un giornalista di una testata nazionale\\
-				\item Una giornalista di una testata locale\\
-				\item Una giornalista d'agenzia\\
-				\item Un blogger (persona secondaria)\\
-				\item Un cittadino esperto (persona addizionale)\\
-				\item Un utente che accede alla dashboard da un dispositivo mobile (persona addizionale)\\
+				\item Giornalista di una testata nazionale\\
+				\item Giornalista di una testata locale\\
+				\item Giornalista d'agenzia\\
+				\item Blogger (persona secondaria)\\
+				\item Cittadino esperto (persona addizionale)\\
+				\item Utente che accede alla dashboard da un dispositivo mobile (persona addizionale)\\
 			\end{itemize}
 		\end{frame}
 
@@ -337,7 +330,7 @@
 		\subsection{Blueprint}
 		\begin{frame}
 			\frametitle{Blueprint}
-			La realizzazione dei bluprint ha avuto necessità di tre iterazione che ci hanno portato a produrre un blueprint per comprendere quali contenuto devono esserci all'interno di ogni pagina e un blueprint per i programmatori che indichi quali componenti sono presenti all'interno di ogni pagina.
+			La realizzazione dei bluprint ha avuto necessità di tre iterazione che ci hanno portato a produrre un blueprint per comprendere quali contenuti devono esserci all'interno di ogni pagina e un blueprint per i programmatori che indichi quali componenti sono presenti all'interno di ogni pagina.
 		\end{frame}
 
 		\begin{frame}
@@ -452,7 +445,7 @@
 	\section{Conclusioni}
 		\begin{frame}
 			\frametitle{Conclusioni}
-			\begin{block}{Obiettivo}
+			\begin{block}{Obiettivo raggiunto}
 				Fornire il giusto contesto alle analisi dei giornalisti così da permetter loro di maturare comprensioni corrette e profonde delle metriche epidemiologiche
 			\end{block}
 			\begin{itemize}[<+->]
