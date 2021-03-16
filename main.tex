@@ -22,6 +22,7 @@ Università di Bologna - Alma Mater Studiorum}
 
 
 \begin{document}
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
 	\begin{frame}[plain]
 	  \titlepage
 	\end{frame}
@@ -31,6 +32,12 @@ Università di Bologna - Alma Mater Studiorum}
 	\end{frame}
 	
 	\section{Introduzione}
+	\begin{frame}
+		\centering
+		\begin{Huge}
+			Introduzione
+		\end{Huge}
+		\end{frame}
 
 		\begin{frame}
 			\frametitle{Il problema}
@@ -82,6 +89,13 @@ Università di Bologna - Alma Mater Studiorum}
 
 
 	\section{Analisi risorse esistenti}
+		\begin{frame}
+			\centering
+			\begin{Huge}
+				Analisi risorse esistenti
+			\end{Huge}
+		\end{frame}
+
 		\subsection{Linee guida}
 
 			\begin{frame}
@@ -144,17 +158,24 @@ Università di Bologna - Alma Mater Studiorum}
 			\begin{frame}
 				\frametitle{Roadmap}
 				\begin{itemize}[<+->]
-					\item \textbf{1}: Impossibile trovare il dato ``Tamponi effettuati''\\
-					\item \textbf{3}: Impossibile trovare il dato relativo alle disponibilità nelle strutture ospedaliere\\
-					\item \textbf{6}: Presenza di etichette poco chiare\\
-					\item \textbf{5}: Non tutti i dati sono disponibili nella dashboard
-					\item \textbf{4}: \`E lasciato all'utente il compito di computare il tasso di letalità\\
-					\item \textbf{7}: \`E lasciato all'utente il compito di computare gli incrementi in un periodo di tempo\\
-					\item \textbf{2}: Alcuni dati sono presenti nel PDF raggiungibile ``Schede riepilogo PDF''\\
+					\item<1-> \textbf{1}: Impossibile trovare il dato ``Tamponi effettuati''\\
+					\item<2-> \textbf{3}: Impossibile trovare il dato relativo alle disponibilità nelle strutture ospedaliere\\
+					\item<3-> \textbf{6}: Presenza di etichette poco chiare e non esplicative, per esempio ``Incremento''\\
+					\item<4-> \textbf{5}: Non tutti i dati sono disponibili nella dashboard
+					\item<5-> \textbf{4}: \`E lasciato all'utente il compito di computare il tasso di letalità\\
+					\item<6-> \textbf{7}: \`E lasciato all'utente il compito di computare gli incrementi in un periodo di tempo\\
+					\item<7-> \textbf{2}: Alcuni dati sono presenti nel PDF raggiungibile ``Schede riepilogo PDF''\\
 				\end{itemize}
 			\end{frame}
 
 	\section{Studio di fattiblità}
+		\begin{frame}
+			\centering
+			\begin{Huge}
+				Studio di fattibilità
+			\end{Huge}
+		\end{frame}
+
 		\subsection{Scenari}
 		\begin{frame}
 			\frametitle{Scenari}
@@ -185,7 +206,12 @@ Università di Bologna - Alma Mater Studiorum}
 			\frametitle{Giovanni}
 			\begin{columns}[t]
 				\begin{column}[T]{6cm}
-					\includegraphics[height=2.5cm]{img/giovanni}
+					\begin{figure}
+						\centering
+						\vspace{-10pt}
+						\includegraphics[height=2.5cm]{img/giovanni}
+					\end{figure}
+					\vspace{-10pt}
 					\textit{``Forza, un altro giorno in cui dovrò dare il massimo per scrivere un ottimo articolo.''}\\
 					Giovanni è un utente ormai esperto di dashboard, ne visita diverse e sceglie solo quella che gli permette di comprendere più velocemente e profondamente il quadro epidemiologico.
 				\end{column}
@@ -202,7 +228,12 @@ Università di Bologna - Alma Mater Studiorum}
 			\frametitle{Francesca}
 			\begin{columns}[t]
 				\begin{column}[T]{6cm}
-					\includegraphics[height=2.5cm]{img/francesca}
+					\begin{figure}
+						\centering
+						\vspace{-10pt}
+						\includegraphics[height=2.5cm]{img/francesca}
+					\end{figure}
+					\vspace{-10pt}
 					\textit{``Che fatica districarsi tra tutti questi dati, chissà se esiste uno strumento che possa aiutarmi.''}\\
 					Francesca è una donna che scrive per il giornale letto nella provincia di Padova, non dà troppo peso ai dati e si informa dove le capita.
 				\end{column}
@@ -219,7 +250,13 @@ Università di Bologna - Alma Mater Studiorum}
 			\frametitle{Giulia}
 			\begin{columns}[t]
 				\begin{column}[T]{6cm}
-					\includegraphics[height=3cm]{img/giulia}
+					\begin{figure}
+						\centering
+						\vspace{-10pt}
+						\includegraphics[height=3.5cm]{img/giulia}
+					\end{figure}
+					\vspace{-10pt}
+
 					\textit{``Non mi fido di questo dato, si discosta troppo da quello che hanno pubblicato ieri, controlliamo che non ci siano errori.''}\\
 					Giulia si occupa di ``fact-checking'' all'interno di un'agenzia di stampa e studia i dati relativi alla pandemia Covid-19.
 				\end{column}
@@ -236,7 +273,13 @@ Università di Bologna - Alma Mater Studiorum}
 			\frametitle{Roberto}
 			\begin{columns}[t]
 				\begin{column}[T]{6cm}
-					\includegraphics[height=3cm]{img/francesco}
+					\begin{figure}
+						\centering
+						\vspace{-10pt}
+						\includegraphics[height=2.5cm]{img/francesco}
+					\end{figure}
+					\vspace{-10pt}
+
 					\textit{``I miei follower mi hanno chiesto un video sul Covid, vediamo un po' qual è l'andamento in Italia.''}\\
 					Roberto è un giovane utente con un blog e un canale YouTube in cui tratta argomenti di attualità.
 				\end{column}
@@ -253,7 +296,13 @@ Università di Bologna - Alma Mater Studiorum}
 			\frametitle{Fabio}
 			\begin{columns}[t]
 				\begin{column}[T]{6cm}
-					\includegraphics[height=2.5cm]{img/fabio}
+					\begin{figure}
+						\centering
+						\vspace{-10pt}
+						\includegraphics[height=2.5cm]{img/fabio}
+					\end{figure}
+					\vspace{-10pt}
+
 					\textit{``Questi dati sono molto interessanti, vorrei condividerli sul mio profilo Twitter per farli vedere a tutti.''}\\
 					Fabio è una persona alla quale piace tenersi aggiornato sugli ultimi fatti che accadono nel mondo e nella sua città.
 				\end{column}
@@ -270,7 +319,13 @@ Università di Bologna - Alma Mater Studiorum}
 			\frametitle{Christian}
 			\begin{columns}[t]
 				\begin{column}[T]{6cm}
-					\includegraphics[height=2.5cm]{img/christian}
+					\begin{figure}
+						\centering
+						\vspace{-10pt}
+						\includegraphics[height=2.5cm]{img/christian}
+					\end{figure}
+					\vspace{-10pt}
+
 					\textit{``Che giornata stancante, chissà cos'è successo oggi nel mondo, aprirò il mio feed Facebook per vedere le ultime novità''}\\
 					Christian è un assiduo utilizzatore di smartphone e  ha tempo solo alla sera per aggiornarsi su quanto accade attorno a lui.
 				\end{column}
@@ -284,6 +339,12 @@ Università di Bologna - Alma Mater Studiorum}
 		\end{frame}
 		
 	\section{Progettazione proposta}
+		\begin{frame}
+			\centering
+			\begin{Huge}
+				Progettazione proposta
+			\end{Huge}
+		\end{frame}
 		%\subsection{Design model}
 		\begin{frame}
 			\frametitle{Design model - CAO=S}
@@ -340,16 +401,25 @@ Università di Bologna - Alma Mater Studiorum}
 		\end{frame}
 
 		\begin{frame}
-			\includegraphics[width=9cm]{img/blueprint-prog-1}
+			\begin{figure}
+				\includegraphics[width=8cm]{img/blueprint-prog-1}
+				\caption{Prima versione del bluprint per programmatori}
+			\end{figure}
 		\end{frame}
 
 		\begin{frame}
 			\begin{columns}[t]
 					\begin{column}[T]{5cm}
-						\includegraphics[width=5cm]{img/blueprint-prog-2}
+						\begin{figure}
+							\includegraphics[width=5cm]{img/blueprint-prog-2}
+							\caption{Seconda versione del blueprint per programmatori}
+						\end{figure}
 					\end{column}
 					\begin{column}[T]{5cm}
-						\includegraphics[width=5cm]{img/blueprint-cont-2}
+						\begin{figure}
+							\includegraphics[width=5cm]{img/blueprint-cont-2}
+							\caption{Seconda versione del blueprint organizzato per contenuti}
+						\end{figure}
 					\end{column}
 			\end{columns}
 		\end{frame}
@@ -357,10 +427,16 @@ Università di Bologna - Alma Mater Studiorum}
 		\begin{frame}
 			\begin{columns}[t]
 					\begin{column}[T]{5cm}
-						\includegraphics[width=5cm]{img/blueprint-prog-4}
+						\begin{figure}
+							\includegraphics[width=5cm]{img/blueprint-prog-4}
+							\caption{Versione finale del blueprint per prgrammatori}
+						\end{figure}
 					\end{column}
 					\begin{column}[T]{5cm}
-						\includegraphics[width=5cm]{img/blueprint-cont-4}
+						\begin{figure}
+							\includegraphics[width=5cm]{img/blueprint-cont-4}
+							\caption{Versione finale del blueprint organizzato per contenuti}
+						\end{figure}
 					\end{column}
 			\end{columns}
 		\end{frame}
@@ -373,24 +449,40 @@ Università di Bologna - Alma Mater Studiorum}
 		\end{frame}
 
 		\begin{frame}
-			\includegraphics[width=10cm]{img/panoramica}
+			\begin{figure}
+				\includegraphics[width=10cm]{img/panoramica}
+				\caption{Schermata ``Panoramica''}
+			\end{figure}
 		\end{frame}
 
 		\begin{frame}
-			\includegraphics[width=10cm]{img/confronto-regioni}
+			\begin{figure}
+				\includegraphics[width=10cm]{img/confronto-regioni}
+				\caption{Schermata ``Confronto fra regioni''}
+			\end{figure}
 		\end{frame}
 
 		\begin{frame}
-			\includegraphics[width=10cm]{img/new-analisi-periodi}
+			\begin{figure}
+				\includegraphics[width=10cm]{img/new-analisi-periodi}
+				\caption{Schermata ``Analisi di periodi''}
+			\end{figure}
 		\end{frame}
-
 
 		\begin{frame}
-			\includegraphics[width=10cm]{img/distribuzione-dati-anagrafici}
+			\begin{figure}
+				\includegraphics[width=10cm]{img/distribuzione-dati-anagrafici}
+				\caption{Schermata ``Distribuzione sui dati anagrafici''}
+			\end{figure}
 		\end{frame}
-
 
 	\section{Valutazione}
+		\begin{frame}
+			\centering
+			\begin{Huge}
+				Valutazione
+			\end{Huge}
+		\end{frame}
 		\subsection{Ispezione}
 		\begin{frame}
 			\frametitle{Cognitive walkthrough}
